@@ -1,0 +1,6 @@
+Grupo 11
+
+Foi desenvolvida a arquitetura de modo que foi feita uma conexão direta com o roteador de química e o servidor de monitoramento.
+Usando o protocolo DHCP para gerenciar os IP's dos dispositivos sem fio, e de forma estática e vinculando ao MAC do servidor, 
+para que o servidor houvesse um IP fixo (10.0.0.3), foi configurado a programação do client e do broker para que se conectem e enviem mensagens automaticamente
+como melhorar a conexão simultânea dos dois clients, o envio das mensagens se mantém estável com intervalo de 5segs.
